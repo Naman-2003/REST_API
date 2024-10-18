@@ -1,6 +1,6 @@
 # REST API
 
-![REST API][]
+![REST API](https://img.shields.io/badge/REST_API-v1.0-blue)
 
 ## Description
 
