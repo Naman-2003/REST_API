@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.test.msib;
 
 import jakarta.persistence.Column;
@@ -17,10 +13,6 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- *
- * @author user
- */
 @Entity
 @Table(name = "proyek")
 public class Proyek {
@@ -53,8 +45,6 @@ public class Proyek {
         inverseJoinColumns = @JoinColumn(name = "lokasi_id")
     )
     private List<Lokasi> lokasi;
-
-    // Getters and Setters
 
     public Long getId() {
         return id;
